@@ -1,3 +1,10 @@
+import Seo from "@/components/seo";
+
 export default function Labrador() {
-  return <h1>Labrador</h1>;
+  return (
+    <div>
+      <Seo pageTitle="Labrador" pageDescription="Informasjon om labrador" />
+      <h1>Labrador</h1>
+    </div>
+  );
 }
