@@ -9,7 +9,7 @@ export default function Hund() {
     <div className="flex flex-col items-center justify-center flex-1 text-black border bg-slate-100">
       <Seo pageTitle="Hunder" pageDescription="Side om hunderaser" />
       <div className="flex flex-col items-center w-1/2 md:w-2/3 sm:w-4/5 xs:w-11/12">
-        <h1 className="mt-10 text-4xl font-bold ">Labrador</h1>
+        <h1 className="mt-10 text-4xl font-bold ">Hunder</h1>
 
         <div className="my-10 ">
           <p>
@@ -38,20 +38,38 @@ export default function Hund() {
           <div className=" md:flex md:flex-col md:items-center md:w-full">
             <h2 className="mb-5 ">Labrador</h2>
             <Link href="/hund/labrador">
-              <Image src={labrador} width={300} height="auto" alt="labrador" />
+              <Image
+                className="rounded"
+                src={labrador}
+                width={300}
+                height="auto"
+                alt="labrador"
+              />
             </Link>
           </div>
 
           <div className=" md:flex md:flex-col md:items-center md:w-full">
             <h2 className="mb-5">Chiuaua</h2>
 
-            <Image src={labrador} width={300} height="auto" alt="Chiuaua" />
+            <Image
+              className="rounded"
+              src={labrador}
+              width={300}
+              height="auto"
+              alt="Chiuaua"
+            />
           </div>
 
           <div className=" md:flex md:flex-col md:items-center md:w-full">
             <h2 className="mb-5">Shiba Inu</h2>
 
-            <Image src={labrador} width={300} height="auto " alt="Shiba Inu" />
+            <Image
+              className="rounded"
+              src={labrador}
+              width={300}
+              height="auto "
+              alt="Shiba Inu"
+            />
           </div>
         </div>
       </div>
