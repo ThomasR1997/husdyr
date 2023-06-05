@@ -8,7 +8,7 @@ import rabbits from "../images/rabbits.jpg";
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center justify-center border">
+    <div className="flex flex-col items-center justify-center flex-1 border">
       <Seo pageTitle="Husdyr" pageDescription="Hjemmeside" />
       <h1 className="mt-10">Husdyr</h1>
 
@@ -22,9 +22,19 @@ export default function Home() {
           pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
           culpa qui officia deserunt mollit anim id est laborum.
         </p>
+        <br />
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. At erat
+          pellentesque adipiscing commodo. Scelerisque eu ultrices vitae auctor
+          eu. Eleifend donec pretium vulputate sapien nec sagittis aliquam
+          malesuada bibendum. At tempor commodo ullamcorper a lacus vestibulum
+          sed arcu non. Nibh nisl condimentum id venenatis a condimentum vitae
+          sapien. Penatibus et magnis dis parturient montes nascetur ridiculus.
+        </p>
       </div>
 
-      <div className="flex space-x-12 border">
+      <div className="flex mb-20 space-x-12 border">
         <div className="border">
           <h2>Hunder</h2>
           <Link href="/hund">
